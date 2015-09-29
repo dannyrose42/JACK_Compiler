@@ -5,8 +5,8 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>CompilationEngine.h</itemPath>
+      <itemPath>CompilerUtility.h</itemPath>
       <itemPath>Tokenizer.h</itemPath>
-      <itemPath>Utility.h</itemPath>
       <itemPath>dirent.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -16,6 +16,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>CompilationEngine.cpp</itemPath>
       <itemPath>Tokenizer.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
@@ -44,13 +45,15 @@
           <standard>8</standard>
         </ccTool>
       </compileType>
+      <item path="CompilationEngine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="CompilationEngine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CompilerUtility.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Tokenizer.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Tokenizer.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="Utility.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="dirent.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -77,13 +80,15 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="CompilationEngine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="CompilationEngine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CompilerUtility.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Tokenizer.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Tokenizer.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="Utility.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="dirent.h" ex="false" tool="3" flavor2="0">
       </item>

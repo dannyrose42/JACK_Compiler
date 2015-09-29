@@ -168,7 +168,8 @@ char Tokenizer::getSymbol(){
         cout << "bad getSymbol() call on:" << currentToken << endl;
         return '%';
     }
-    else return currentToken[0];
+    else
+        return currentToken[0];
 }
 string Tokenizer::getIdentifier() {
     if (getTokenType() != IDENTIFIER){
@@ -191,4 +192,7 @@ string Tokenizer::getString(){
     }
     //Returns string minus the enclosing double quote chars
     else return currentToken.substr(1,currentToken.size()-2);
+}
+string Tokenizer::getJackFileName(){
+    return jackFileName;
 }

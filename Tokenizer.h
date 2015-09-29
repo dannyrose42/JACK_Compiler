@@ -21,6 +21,7 @@ public:
     string getIdentifier();
     int getInt();
     string getString();
+    string getJackFileName();
 protected:
     fstream fin;
     string jackFileName, currentJackFile, currentToken;

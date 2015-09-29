@@ -7,10 +7,11 @@
 
 #ifndef COMPILATIONENGINE_H
 #define	COMPILATIONENGINE_H
+#include "CompilerUtility.h"
 class CompilationEngine 
 {
 public:
-    CompilationEngine();
+    CompilationEngine(Tokenizer * t);
     void compileClass();
     void compileClassVarDec();
     void compileSubroutine();
@@ -25,6 +26,10 @@ public:
     void compileExpression();
     void compileTerm();
     void compileExpressionList();
+protected:
+    Tokenizer * tokenizer;
+    ofstream fout;
+    
 };
 #endif	/* COMPILATIONENGINE_H */
 

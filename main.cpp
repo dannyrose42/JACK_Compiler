@@ -22,8 +22,8 @@ int main(int argc, char** argv) {
     cin >> input;
     
     output = input;
-    output.erase(input.size()-4,4);
-    output += "xml";
+    output.erase(input.size()-5,5);
+    output += "T.xml";
     
     fout.open(output.c_str());
     if (fout.fail())
@@ -43,8 +43,14 @@ int main(int argc, char** argv) {
         }
         else if(tokenizer->getTokenType()==1){
             cout << "SYMBOL" << endl;
-            fout << "<symbol> " << tokenizer->getSymbol()
-                    << " </symbol>" << endl;
+            if (tokenizer->getSymbol()=='<')
+                fout << "<symbol> " << "&lt;" << " </symbol>" << endl;
+            else if (tokenizer->getSymbol()== '>')
+                fout << "<symbol> " << "&gt;" << " </symbol>" << endl;
+            else if (tokenizer->getSymbol()=='&')
+                fout << "<symbol> " << "&amp;" << " </symbol>" << endl;
+            else
+                fout << "<symbol> " << tokenizer->getSymbol() << " </symbol>" << endl;
         }
         else if(tokenizer->getTokenType()==2){
             cout << "IDENTIFIER" << endl;

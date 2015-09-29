@@ -1,1 +1,1 @@
-class|constructor|function|method|field|static|var|int|char|boolean|void|true|false|null|this|let|do|if|else|while|return|\{|\}|\(|\)|\[|\]|\.|,|;|\+|-|\*|/&|\||<|>|=|~|(["'])(?:(?=(\\?))\2.)*?\1|(\w+)
+class|constructor|function|method|field|static|var|int|char|boolean|void|true|false|null|this|let|do|if|else|while|return|\{|\}|\(|\)|\[|\]|\.|,|;|\+|-|\/|\*|\&|\||<|>|=|~|(["'])(?:(?=(\\?))\2.)*?\1|(\w+)

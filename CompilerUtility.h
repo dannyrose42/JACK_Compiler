@@ -15,6 +15,7 @@
 #include <stdio.h>
 #include <vector>
 #include <regex>
+#include <exception>
 using namespace std;
 
 enum TOKEN_TYPE {
@@ -51,7 +52,11 @@ enum KEY_WORD {
     KW_CALL_ERROR,  //21
     KW_ERROR        //22
 };
-                    
-
-#endif	/* UTILITY_H */
-
+struct compileError : public std::exception
+{
+   std::string s;
+   compileError(std::string ss) : s(ss) {}
+   ~compileError() throw () {} 
+   const char* what() const throw() { return s.c_str(); }
+}                  
+#endif
