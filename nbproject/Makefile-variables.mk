@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=MinGW64-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/MinGW64-Windows
-CND_ARTIFACT_NAME_Debug=hack_compiler
-CND_ARTIFACT_PATH_Debug=dist/Debug/MinGW64-Windows/hack_compiler
+CND_ARTIFACT_NAME_Debug=jack_compiler
+CND_ARTIFACT_PATH_Debug=dist/Debug/MinGW64-Windows/jack_compiler
 CND_PACKAGE_DIR_Debug=dist/Debug/MinGW64-Windows/package
-CND_PACKAGE_NAME_Debug=hackcompiler.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/MinGW64-Windows/package/hackcompiler.tar
+CND_PACKAGE_NAME_Debug=jackcompiler.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/MinGW64-Windows/package/jackcompiler.tar
 # Release configuration
 CND_PLATFORM_Release=MinGW-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/MinGW-Windows
-CND_ARTIFACT_NAME_Release=hack_compiler
-CND_ARTIFACT_PATH_Release=dist/Release/MinGW-Windows/hack_compiler
+CND_ARTIFACT_NAME_Release=jack_compiler
+CND_ARTIFACT_PATH_Release=dist/Release/MinGW-Windows/jack_compiler
 CND_PACKAGE_DIR_Release=dist/Release/MinGW-Windows/package
-CND_PACKAGE_NAME_Release=hackcompiler.tar
-CND_PACKAGE_PATH_Release=dist/Release/MinGW-Windows/package/hackcompiler.tar
+CND_PACKAGE_NAME_Release=jackcompiler.tar
+CND_PACKAGE_PATH_Release=dist/Release/MinGW-Windows/package/jackcompiler.tar
 #
 # include compiler specific variables
 #
